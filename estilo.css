@@ -1,0 +1,232 @@
+body {
+  background-color: white;
+  font-family: "Arial, Helvetica, sans-serif";
+  justify-content: center;
+  display: flex;
+}
+.conteudo_da_pagina {
+  width: 1250px;
+}
+.titulo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid #ebedef;
+}
+.logo {
+  width: 171px;
+  height: 36px;
+}
+/* Configurações do subtítulo*/
+
+.subtitulo {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: "Encode Sans";
+  font-size: 19px;
+  font-weight: 700;
+  border-bottom: 1px solid #ebedef;
+  height: 40px;
+}
+.g1 {
+  color: #c3170c;
+}
+.o-globo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
+/* fim das Configurações do subtítulo */
+/* noticias */
+.noticias {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+/* notícias da medade direira */
+
+.caixa_noticia_direita {
+  width: 240px;
+  margin-bottom: 20px;
+}
+.lado_direito {
+  display: flex;
+  height: 845px;
+  justify-content: center;
+  margin-top: 34px;
+}
+.noticias-direita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 310px;
+  height: 845px;
+  flex-wrap: wrap;
+  margin-right: 35px;
+  border-right: 1px solid #ebedef;
+}
+.noticias_esquerda {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 845px;
+  justify-content: center;
+}
+.imagem_direita {
+  width: 240px;
+  height: 128;
+}
+.primeiro_texto_direita {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #16ae54;
+}
+.primeiro_texto_esquerda {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+
+  color: #ec8006;
+}
+
+.segundo_texto {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.terceiro_texto {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+}
+
+/* fim - notícias da medade direira */
+
+/* noticias da metade esquerda */
+
+.texto_destaque {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  color: #c4160c;
+  width: 624px;
+  height: 235px;
+}
+.texto_menor {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  width: 624px;
+  height: 82px;
+  align-items: center;
+  border-bottom: 1px solid #ebedef;
+  align-items: center;
+  justify-content: center;
+}
+.lado_esquerdo {
+  width: 664px;
+  height: 845px;
+  justify-content: center;
+  border-right: 1px solid #ebedef;
+  margin-top: 34px;
+}
+.caixa_noticia_esquerda {
+  width: 243px;
+}
+.imagem_esquerda {
+  width: 193px;
+  height: 110px;
+}
+.noticias_imagens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  height: 225px;
+  width: 624px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.noticias_texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ebedef;
+  height: 268px;
+  width: 624px;
+}
+.caixa_noticia_esquerda {
+  height: 224px;
+  width: 192px;
+  align-items: center;
+}
+.texto_1 {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #c4170c;
+}
+.texto_2 {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+}
+.texto_3 {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+}
